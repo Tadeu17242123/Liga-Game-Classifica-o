@@ -1,0 +1,112 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 20px;
+  background-image: url("https://t2.tudocdn.net/498717?w=550&h=550");
+  height: 100px;
+  background-color: #1f1c2c;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  margin-top: 150px;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  width: 10px;
+  height: 10px;
+  border: solid 1px grey;
+  color: white;
+  background-color: #1f1c2c;
+}
+.movies {
+  color: #ffffff;
+  width: 94vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  font-weight: bold;
+  background-repeat: no-repeat;
+}
+
+.catalog {
+  color: white;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  width: 182px;
+  height: 330px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: arial;
+}
+
+.catalog img {
+  margin: 50 50px;
+  padding: 0px 0;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.clique {
+  color: yellow;
+  margin-top: 5px;
+  font-size: 19px;
+}
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
